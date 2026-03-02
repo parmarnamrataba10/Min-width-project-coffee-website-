@@ -1,0 +1,613 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EBCDBD;
+}
+.logo{
+    height:19vh;
+    width: 32vw;
+}
+.container{
+    display: flex;
+    gap:1vh;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin-top: 8vh;
+    gap: 2vh;
+    font-size: 1rem;
+
+    color: #503C2F;
+}
+.icon{
+    font-size :3vh;
+    color: #503C2F;
+}
+
+#hero{
+    background-image: url(./asset/coffee.jpg);
+    height: 32vh;
+    width: 54vh;
+    background-size: cover;
+    position: absolute;
+}
+.container2{
+    position: relative;
+}
+.text{
+    color: #E3B496;
+   
+}
+.text p,h1{
+    margin-top:1vh;
+    margin-left:2vh;
+}
+.btn{
+    border-radius: 1rem;
+    width: 6rem;
+    height: 2rem;
+    margin-top:1vh;
+    margin-left: 1.5rem;
+}
+.wave-bottom{
+    position: relative;
+    margin-top:1.5vh;
+}
+.heading{
+    text-align: center;
+}
+.sub-heading{
+    text-align: center;
+}
+#categories{
+   /* display: flex; */
+   
+}
+.categories-card{
+    
+    background-image: url(./asset/mocha2);
+    height: 25vh;
+    width: 65vw;
+    background-size: cover;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+     margin-left: 7rem;
+    /* font-size: 2rem; */
+}
+.categories-card2{
+    background-image: url(./asset/am);
+    height: 25vh;
+    width: 65vw;
+    background-size:cover;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+    margin-left: 7rem;
+ margin-top: 1.5rem;
+}
+.categories-card3{
+    background-image: url(./asset/cappuccino.png);
+      height: 25vh;
+    width: 65vw;
+    background-size:cover;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+     margin-left: 7rem;
+ margin-top: 1.5rem;
+}
+.shakes{
+     /* display: flex;  */
+    justify-content: space-between;
+}
+.cards{
+    margin-left: 8rem;
+    height: 30vh;
+    width: 55vw;
+    background-color: #D2B5A5;
+    border-radius: 1vh;
+}
+.btn2{
+    width: 19vw;
+    border-radius: 1vh;
+    border: none;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+/* .img{
+    height:14vh;
+    width:25vw ;
+    margin-top: 2vh;
+    margin-left: vh;
+} */
+ .img{
+    height: 20vh;
+    margin-left: 2vh;
+ }
+.img2{
+   height:20vh;
+    width:35vw ;
+    margin-left: 4vh;
+}
+.img3{
+   height: 10vh; 
+}
+.nm{
+    text-align: center;
+    font-size: 2vh;
+}
+.buy{
+    height: 2vh;
+    width: 19vw;
+    border-radius: 1vh;
+    border: none;
+    color: white;
+    background-color: #6F6563;
+    /* float: right; */
+}
+.price{
+    font-size: 2vh;
+}
+
+.blogs-card{
+    background-color: #D2B5A5;
+    height: 41vh;
+    width: 75vw;
+    margin-left: 9vh;
+    border-radius: 2vh;
+}
+.book{
+    height: 19vh;
+    width: 75vw;
+    background-size: cover;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+.read{
+    border-radius: 1vh;
+    background-color:#D2B5A5 ;
+    width: 9vh;
+    /* border: white; */
+
+}
+footer{
+    width: 100%;
+    background-color:#1E1E1E;
+    color: white;
+}
+.footer-sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh;
+}
+.products{
+   list-style: none;
+   
+}
+.products li{
+    margin-top: 1vh;
+}
+.category{
+    list-style: none;
+}
+.category li{
+    margin-top: 1vh;
+}
+.company-info{
+    list-style: none;
+}
+.company-info li{
+    margin-top: 1vh;
+}
+.follow{
+    list-style: none;
+}
+.follow li{
+    margin-top: 1vh;
+}
+.footer-con{
+    background-color: #7D6559;
+    color: white;
+    margin-left: 3vh;
+    padding: 1vh;
+    width: 90vw;
+    height: 10vh;
+}
+.inside{
+    display: flex;
+    justify-content: space-between;
+
+}
+@media (min-width: 576px) {
+
+  .logo {
+     height:19vh;
+    width: 32vw;
+  }
+  .list{
+    margin-left: 4rem;
+  }
+
+  #hero {
+     background-image: url(./asset/coffee.jpg);
+    height: 35vh;
+    width: 75vh;
+    background-size: cover;
+    position: absolute;
+
+    /* width: 100%;
+    height: 40vh;
+    position: relative; */
+  }
+  .wave-bottom{
+    position: relative;
+    margin-top:-1vh;
+    margin-left: -1vh;
+}
+ 
+
+  .categories-card,
+  .categories-card2,
+  .categories-card3 {
+    width: 80%;
+    margin: 1.5rem auto;
+  }
+
+  .cards {
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  .blogs-card {
+    width: 85%;
+    margin: 2rem auto;
+  }
+  .categories-card{
+    
+    background-image: url(./asset/mocha2);
+    height: 30vh;
+    width: 65vw;
+    background-size: cover;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+     margin-left: 7rem;
+    /* font-size: 2rem; */
+}
+.categories-card2{
+    background-image: url(./asset/am);
+    height: 30vh;
+    width: 65vw;
+    background-size:cover;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+    margin-left: 7rem;
+ margin-top: 1.5rem;
+}
+.categories-card3{
+    background-image: url(./asset/cappuccino.png);
+      height: 30vh;
+    width: 65vw;
+    background-size:cover;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+     margin-left: 7rem;
+ margin-top: 1.5rem;
+}
+.cards{
+    margin-left: 10rem;
+    height: 30vh;
+    width: 45vw;
+    background-color: #D2B5A5;
+    border-radius: 1vh;
+}
+.img{
+    height: 20vh;
+    margin-left: 5vh;
+ }
+ .img2{
+   height:20vh;
+    width:25vw ;
+    margin-left: 5vh;
+}
+.img3{
+   height: 5vh; 
+}
+.blogs-card{
+    background-color: #D2B5A5;
+    height: 41vh;
+    width: 74vw;
+    margin-left: 9vh;
+    border-radius: 2vh;
+}
+.footer-con{
+    background-color: #7D6559;
+    color: white;
+    margin-left: 3vh;
+    padding: 1vh;
+    width: 90vw;
+    height: 5vh;
+}
+}
+@media (min-width: 768px){
+
+    #hero{
+    background-image: url(./asset/coffee.jpg);
+    height: 62vh;
+    width: 120vh;
+    background-size: cover;
+    position: absolute;
+}
+.wave-bottom{
+    position: relative;
+    margin-top:5vh;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin-top: 8vh;
+    gap: 10vh;
+    font-size: 1rem;
+
+    color: #503C2F;
+}
+#categories{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: right;
+    align-items: right; */
+    }
+     .categories-card{
+    
+    background-image: url(./asset/mocha2);
+    height: 40vh;
+    width: 65vw;
+    background-size:cover;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+     margin-left: 17rem;
+    /* font-size: 2rem; */
+}
+.categories-card2{
+    background-image: url(./asset/am);
+    height: 40vh;
+    width: 65vw;
+    background-size:cover;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+    margin-left: 17rem;
+ margin-top: 1.5rem;
+}
+.categories-card3{
+    background-image: url(./asset/cappuccino.png);
+      height: 40vh;
+    width: 65vw;
+    background-size:cover;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+     margin-left: 17rem;
+ margin-top: 1.5rem;
+}
+.shakes{
+     /* display: flex;  */
+    justify-content: space-between;
+    margin-left: 21vh;
+}
+.img{
+    height: 20vh;
+  
+    margin-left:vh;
+ }
+.img2{
+   height:19vh;
+    width:26vw ;
+    margin-left: 7vh;
+}
+.img3{
+   height: 10vh; 
+}
+.blogs-card{
+    background-color: #D2B5A5;
+    height: 49vh;
+    width: 75vw;
+    margin-left: 27vh;
+    border-radius: 2vh;
+}
+.book{
+    height: 25vh;
+    width: 75vw;
+    background-size: cover;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+.line{
+    font-size: 4rem;
+}
+}
+@media (min-width: 992px){
+
+    .logo{
+    height:19vh;
+    width: 35vw;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    margin-top: 8vh;
+    gap: 15vh;
+    font-size: 1rem;
+
+    color: #503C2F;
+}
+
+
+     #hero{
+    background-image: url(./asset/coffee.jpg);
+    height: 69vh;
+    width: 145vh;
+    background-size: cover;
+    position: absolute;
+}
+.wave-bottom{
+    position: relative;
+    margin-top:5vh;
+}
+
+  #categories{
+    display: flex;
+    flex-direction:row;
+    justify-content: right;
+    align-items: right;
+    }
+ .categories-card{
+    
+    background-image: url(./asset/mocha2);
+    height: 35vh;
+    width: 180vw;
+    background-size: cover;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+     margin-left: 2rem;
+}
+ .categories-card2{
+    background-image: url(./asset/am);
+      height: 35vh;
+    width: 195vw;
+    background-size: cover;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+     margin-left: 2rem;
+}
+.categories-card3{
+    background-image: url(./asset/cappuccino.png);
+  height: 35vh;
+    width: 190vw;
+    background-size: cover;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+     margin-left: 2rem;
+     margin-right: 2vh;
+}
+
+.shakes{
+     display: flex; 
+    justify-content: space-between;
+    margin-left:vh;
+    
+}
+.cards{
+    height: 30vh;
+    width: 190vw;
+    background-size: cover;
+    border-radius: 1rem;
+    color:black;
+    text-align: center;
+     margin-left:1vh;
+     margin-right: 10vh;
+}
+.img{
+    height: 20vh;
+  
+    margin-left:vh;
+ }
+ .img2{
+   height:19vh;
+    width:20vw ;
+    margin-left: 4vh;
+}
+.img3{
+   height: 10vh; 
+}
+#blogs{
+    display: flex;
+}
+.blogs-card{
+    background-color: #D2B5A5;
+    height: 49vh;
+    width: 40vw;
+    border-radius: 2vh;
+    margin-left: 1vh;
+}
+.book{
+    height: 25vh;
+    width: 40vw;
+    background-size: cover;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+.line{
+    font-size: 4.5rem;
+}
+}
+@media (min-width: 1200px){
+
+
+        #hero{
+    background-image: url(./asset/coffee.jpg);
+    height: 85vh;
+    width: 174vh;
+    background-size: cover;
+    position: absolute;
+}
+   .logo{
+    height:19vh;
+    width:95vw;
+}
+.wave-bottom{
+    position: relative;
+    margin-top:10vh;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    margin-top: 8vh;
+    gap: 15vh;
+    font-size: 1.5rem;
+    margin-left: 12rem;
+
+    color: #503C2F;
+}
+.text{
+    font-size: 2rem;
+}
+.heading{
+    font-size: 3rem;
+}
+.sub-heading{
+    font-size: 1.5rem;
+}
+.img2{
+     height:19vh;
+    width:15vw ;
+    margin-left: 4vh;
+}
+.blogs-card{
+    background-color: #D2B5A5;
+    height: 49vh;
+    width: 35vw;
+    border-radius: 2vh;
+    margin-left: 1vh;
+}
+.book{
+    height: 25vh;
+    width: 35vw;
+    background-size: cover;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+}
